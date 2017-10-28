@@ -8,8 +8,10 @@ incorrect_answers = {}
 
 def check_guess(guess, country, countries):
     if guess.lower() == countries[country].lower():
+        correct_answers[country] = countries[country]
         return True
     else:
+        incorrect_answers[country] = guess
         return False
 
 def main():
@@ -49,10 +51,8 @@ def main():
         guess = raw_input("Guess the capital of: " + country + ": ").lower()
 
         if check_guess(guess, country, countries) == True:
-            correct_answers[country] = countries[country]
             print ("Congratulations!")
         else:
-            incorrect_answers[country] = guess
             print ("Wrong answer! The capital is: " + countries[country])
 
         again = raw_input("Do you want to guess again? ")

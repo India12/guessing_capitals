@@ -1,10 +1,10 @@
 Correct answers: 
  
-1. Country: Iraq;  Capital: Baghdad
-2. Country: Libya;  Capital: Tripoli
+1. Country: Moldova;  Capital: Chisinau
 
  Incorrect answers: 
  
-1. Country: Brunei;  Incorrect answer: ddd;  Capital: Bandar Seri Begawan
+1. Country: Bahrain;  Incorrect answer: ggg;  Capital: Manama
+2. Country: Turkmenistan;  Incorrect answer: ggg;  Capital: Ashgabat
 
- Your were correct in 66.67% of guesses.
+ Your were correct in 33.33% of guesses.
